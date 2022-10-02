@@ -1,12 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { AiTwotoneMail , AiFillFacebook ,AiFillInstagram } from 'react-icons/ai';
 import { GoLocation} from 'react-icons/go';
 import { IoIosCall} from 'react-icons/io';
 
 const Navbar = () =>{
+    const [navbar , setNavbar] = useState(true)
+    const changeNav = ()=>{
+        if(window.scrollY >= 45){
+            setNavbar(true)
+        }else{
+            setNavbar(false)
+        }
+    }
+    window.addEventListener('scroll' , changeNav)
     return (
-            <div>
-                <div className='border-2 hidden md:block lg:block divide-neutral-300 '>
+            <div className={navbar ? "fixed top-0 left-0 right-0 z-20 bg-white shadow-2xl" : "z-20"}>
+                <div className={navbar? "hidden" : "border-2 hidden md:block lg:block divide-neutral-300"}>
                     <div className='pt-2 pb-2 flex items-center container m-auto justify-between'>
                     <div className='flex gap-4'>
                         <h2><AiTwotoneMail className='inline-block w-6 h-6 hover:text-amber-600'/> support@simmifoundation.org</h2>
@@ -19,7 +28,7 @@ const Navbar = () =>{
                     </div>
                 </div>
             </div> 
-            <div className='container m-auto'>
+            <div className='container m-auto '>
             <div className="navbar bg-base-100 p-0">
             <div className="navbar-start">
                 <div className="dropdown">
