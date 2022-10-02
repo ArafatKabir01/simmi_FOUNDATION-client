@@ -1,8 +1,11 @@
+import Home from "./Pages/Home/Home";
+import Navbar from "./Pages/Shared/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="">
-      <h2>hi</h2>
+    <div>
+      <Navbar/>
+      <Home></Home>
     </div>
   );
 }
