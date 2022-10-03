@@ -1,6 +1,6 @@
 .helpusSwiper{
-    width: 384px;
-    height: 210px;
+    width: 500px;
+    height: 280px;
   }
   
   .helpusSwiper-slide {
@@ -22,4 +22,10 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+  }
+  @media only screen and (max-width: 500px) {
+    .helpusSwiper{
+      width: 340px;
+      height: 280px;
+    }
   }

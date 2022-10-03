@@ -10,8 +10,8 @@ const Events =()=>{
                 <div className="">
                 <h1 className="text-5xl font-bold text-center pt-8 pb-8">Join our upcoming events for <br/>contribution</h1>
                 <div className='container m-auto mt-8 '>
-                    <div className='flex gap-6'>
-                    <div className="card card-compact w-5/12 h-3/5 shadow-md bg-white">
+                    <div className='flex flex-wrap justify-center items-center gap-6'>
+                    <div className="card card-compact w-80 md:w-5/12 lg:w-5/12  h-3/5 shadow-md bg-white">
                         <figure><img src="https://simmifoundation.org/admin/images/events/LIVE%20SESSION%20DOCTOR.jpg" className='h-96 w-full' alt="donation" /></figure>
                         <div className="card-body">
                             <div className='flex  aling-center gap-8'>
@@ -48,10 +48,10 @@ const Events =()=>{
                             </div>
                         </div>
                     </div>
-                    <div className='w-3/6 '>
+                    <div className='w-full md:w-3/6 lg:w-3/6'>
                     <div className="card shadow-md text-primary-content bg-white mb-2">
                         <div className="card-body text-black p-0">
-                        <div className="card-body h-60">
+                        <div className="card-body  h-full md:h-60 lg:h-60">
                             <div className='flex  aling-center justify-between'>
                             <h2 className="card-title">"Wellness and health, a vital concept.</h2> 
                             <div style={{"backgroundImage":"url('https://andit.co/projects/html/jago-welfare/assets/img/icon/date.png')"}} className='w-24 h-24  bg-no-repeat '>
@@ -82,9 +82,9 @@ const Events =()=>{
                         </div>
                         </div>
                         </div>
-                        <div className="card shadow-md text-primary-content mb-2 bg-white">
-                        <div className="card-body text-black p-0">
-                        <div className="card-body h-60">
+                        <div className="card w-96 md:w-full lg:w-full shadow-md  mb-2 bg-white">
+                        <div className="card-body  p-0">
+                        <div className="card-body   h-full md:h-60 lg:h-60">
                             <div className='flex  aling-center justify-between '>
                             <h2 className="card-title">"Know your heart better" By Dr. Rahul Katariya</h2> 
                             <div style={{"backgroundImage":"url('https://andit.co/projects/html/jago-welfare/assets/img/icon/date.png')"}} className='w-24 h-24  bg-no-repeat '>
@@ -117,7 +117,7 @@ const Events =()=>{
                         </div>
                         <div className="card shadow-md text-primary-content mb-2 bg-white">
                         <div className="card-body text-black p-0">
-                        <div className="card-body h-60">
+                        <div className="card-body h-full md:h-60 lg:h-60">
                             <div className='flex  aling-center justify-between '>
                             <h2 className="card-title">"Know your heart better" By Dr. Rahul Katariya</h2> 
                             <div style={{"backgroundImage":"url('https://andit.co/projects/html/jago-welfare/assets/img/icon/date.png')"}} className='w-24 h-24  bg-no-repeat '>

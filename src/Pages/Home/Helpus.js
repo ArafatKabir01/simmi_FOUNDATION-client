@@ -30,12 +30,12 @@ const Helpus = () =>{
                         clickable: true,
                         }}
                         modules={[Pagination ,Autoplay]}
-                        className="helpusSwiper"
+                        className="helpusSwiper "
                     >
                         <SwiperSlide className='helpusSwiper-slide rounded-lg '><div className="card w-96  text-primary-content">
                                                                     <div className="card-body bg-amber-600">
                                                                         <h2 className="card-title text-blue-900">Collaborate</h2>
-                                                                        <p>Simmi Foundation serves in the collaboration with schools, colleges and other institutions.</p>
+                                                                        <p className='text-white'>Simmi Foundation serves in the collaboration with schools, colleges and other institutions.</p>
                                                                         <div className="card-actions justify-end">
                                                                         <button className="btn">Collaborate with Us</button>
                                                                         </div>
@@ -43,8 +43,8 @@ const Helpus = () =>{
                                                                     </div></SwiperSlide>
                         <SwiperSlide className='helpusSwiper-slide rounded-lg'><div className="card w-96  text-primary-content">
                                                                 <div className="card-body bg-orange-900">
-                                                                    <h2 className="card-title">Be a Volunteer</h2>
-                                                                    <p>Even the all-powerful Pointing has no control about the<br/> blind texts.</p>
+                                                                    <h2 className="card-title text-orange-200">Be a Volunteer</h2>
+                                                                    <p className='text-white'>Even the all-powerful Pointing has no control about the<br/> blind texts.</p>
                                                                     <div className="card-actions justify-end">
                                                                     <button className="btn">Read More</button>
                                                                     </div>
@@ -52,8 +52,8 @@ const Helpus = () =>{
                                                                 </div></SwiperSlide>
                                                                 <SwiperSlide className='helpusSwiper-slide rounded-lg'><div className="card w-96  text-primary-content">
                                                                 <div className="card-body bg-yellow-800">
-                                                                    <h2 className="card-title">Donate Money</h2>
-                                                                    <p>Your donation will further our mission of ensuring a happy and healthy life of those in need.</p>
+                                                                    <h2 className="card-title text-orange-200">Donate Money</h2>
+                                                                    <p className='text-white'>Your donation will further our mission of ensuring a happy and healthy life of those in need.</p>
                                                                     <div className="card-actions justify-end">
                                                                     <button className="btn">Donate Now</button>
                                                                     </div>
