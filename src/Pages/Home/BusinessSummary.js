@@ -1,7 +1,7 @@
 import React from 'react';
 const BusinessSummary=()=>{
     return(
-        <div className='container m-auto text-center'>
+        <div className='container m-auto text-center -mt-14'>
             <div className="stats stats-vertical container m-auto lg:stats-horizontal shadow ">
   
             <div className="stat">

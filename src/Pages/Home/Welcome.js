@@ -2,8 +2,8 @@ import React from 'react';
 const Welcome =()=>{
     return(
         <dev>
-            <div style={{"backgroundColor":"#212529"}} className="hero  ">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+            <div style={{"backgroundColor":"#212529"}} className="hero overflow-hidden ">
+            <div className="hero-content flex-col lg:flex-row-reverse overflow-hidden">
                 <img src="https://simmifoundation.org/home/images/home/map-dark.png" className="max-w-md hover:scale-125 transition duration-700 ease-in-out " />
                 <div>
                 <h1 className="text-5xl font-bold text-white">Welcome to <span className='text-amber-600'>SIMMI</span></h1>

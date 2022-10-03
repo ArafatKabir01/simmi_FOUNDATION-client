@@ -4,9 +4,9 @@ import React from 'react';
 const Objective =()=>{
     return (
         <div>
-            <h2 className='text-5xl font-bold text-center mb-12 pt-12 '>Objectives</h2>
+            <h2 className='text-5xl font-bold text-center mb-12 pt-12 overflow-hidden'>Objectives</h2>
             <div className='flex flex-wrap justify-center gap-6 pb-10'>
-             <div className=' hover:-translate-y-6 duration-700'> 
+             <div className=' hover:-translate-y-6 duration-700 '> 
                  <div  className="card  	card-compact w-80  ">
                 <figure><img data-aos="zoom-in" data-aos-duration="2000" className='h-52 hover:scale-125 transform-gpu transition duration-700 ease-in-out w-full' src="https://simmifoundation.org/home/images/objectives/education.jpg" alt="Shoes" /></figure>
                 <div data-aos="fade-down-right"   className="card-body  bg-cyan-900 ">

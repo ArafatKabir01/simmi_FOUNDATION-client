@@ -5,10 +5,10 @@ import {  BiTimeFive} from 'react-icons/bi';
 const Events =()=>{
     return(
         <dev>
-            <div className=" min-h-screen bg-base-200">
+            <div className=" min-h-screen bg-base-200 pb-32">
             <div className="">
                 <div className="">
-                <h1 className="text-5xl font-bold text-center pt-8">Join our upcoming events for <br/>contribution</h1>
+                <h1 className="text-5xl font-bold text-center pt-8 pb-8">Join our upcoming events for <br/>contribution</h1>
                 <div className='container m-auto mt-8 '>
                     <div className='flex gap-6'>
                     <div className="card card-compact w-5/12 h-3/5 shadow-md bg-white">
